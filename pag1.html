@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Carousel Template · Bootstrap v5.0</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+
+body {
+      background-color: #d4d4d491;
+    }
+
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <section> 
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pag1.html">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pag2.html" > xd </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./imagenes/tumbes2.jpg" class="d-block w-100" alt="Descripción de la imagen">
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Especies maritimas.</h1>
+            <p> Te interesa y quieres saber que especies pueden habitar en este extenso paraiso?</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Ver lugares</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="./comida/CA.jpg" class="d-block w-100" alt="Descripción de la imagen">
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Comida deliciosa.</h1>
+            <p>Productos o comidas que no pueden faltar al visitar estos lugares. </p>
+            <p><a class="btn btn-lg btn-primary" href="#">Ver productos</a></p>
+          </div>
+        </div>
+      </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Caleta Tumbes.</h2>
+        <p class="lead">Visitar Caleta Tumbes es una experiencia envolvente. Puedes explorar la caleta, observar los barcos pesqueros y disfrutar de las impresionantes vistas hacia la Isla Quiriquina. El sitio también es popular entre los turistas que buscan degustar los productos del mar frescos.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="./imagenes/tumbes.jpg" style="width: 500px; height: 500px;" alt="Descripción de la imagen">
+
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Caleta Lenga.</h2>
+        <p class="lead">Caleta Lenga es una hermosa zona costera en la Región del Biobío, alberga un estuario donde habita una gran variedad de aves, incluidos cisnes de cuello negro y pelícanos, lo que lo convierte en un destino ideal para los amantes de la observación de aves . 
+        Los visitantes pueden disfrutar de caminatas por senderos naturales, incluyendo ascensos al cerro "Teta Norte," que ofrece vistas panorámicas impresionantes .
+        Sin embargo, la playa de Caleta Lenga no es apta para el baño debido a la contaminación por derrames de petróleo en el pasado, aunque es un buen lugar para pasear y practicar deportes .</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="./imagenes/lenga.jpg" style="width: 500px; height: 500px;" alt="Descripción de la imagen">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Isla Mocha.</h2>
+        <p class="lead">Isla Mocha está ganando reconocimiento como destino turístico, particularmente debido a su Reserva Nacional Isla Mocha, establecida en 1988, que protege aproximadamente el 45% del área de la isla. La reserva alberga una diversa vida silvestre, incluidas especies de aves endémicas y diversas especies marinas, lo que la convierte en un lugar perfecto para la observación de aves y el ecoturismo.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="./imagenes/mocha.jpg" style="width: 500px; height: 500px;" alt="Descripción de la imagen">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
